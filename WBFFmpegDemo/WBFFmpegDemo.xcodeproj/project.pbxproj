@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D02C14D3229BEC510003CF20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C14D2229BEC510003CF20 /* AppDelegate.m */; };
+		D02C14D6229BEC510003CF20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C14D5229BEC510003CF20 /* ViewController.m */; };
+		D02C14D9229BEC510003CF20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02C14D7229BEC510003CF20 /* Main.storyboard */; };
+		D02C14DB229BEC560003CF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02C14DA229BEC560003CF20 /* Assets.xcassets */; };
+		D02C14DE229BEC560003CF20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02C14DC229BEC560003CF20 /* LaunchScreen.storyboard */; };
+		D02C14E1229BEC560003CF20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C14E0229BEC560003CF20 /* main.m */; };
+		D02C14EB229BEC560003CF20 /* WBFFmpegDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C14EA229BEC560003CF20 /* WBFFmpegDemoTests.m */; };
+		D02C14F6229BEC560003CF20 /* WBFFmpegDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D02C14F5229BEC560003CF20 /* WBFFmpegDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D02C14E7229BEC560003CF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02C14C6229BEC510003CF20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02C14CD229BEC510003CF20;
+			remoteInfo = WBFFmpegDemo;
+		};
+		D02C14F2229BEC560003CF20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D02C14C6229BEC510003CF20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D02C14CD229BEC510003CF20;
+			remoteInfo = WBFFmpegDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D02C14CE229BEC510003CF20 /* WBFFmpegDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBFFmpegDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02C14D1229BEC510003CF20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D02C14D2229BEC510003CF20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D02C14D4229BEC510003CF20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D02C14D5229BEC510003CF20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D02C14D8229BEC510003CF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D02C14DA229BEC560003CF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D02C14DD229BEC560003CF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D02C14DF229BEC560003CF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02C14E0229BEC560003CF20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D02C14E6229BEC560003CF20 /* WBFFmpegDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBFFmpegDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02C14EA229BEC560003CF20 /* WBFFmpegDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBFFmpegDemoTests.m; sourceTree = "<group>"; };
+		D02C14EC229BEC560003CF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02C14F1229BEC560003CF20 /* WBFFmpegDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBFFmpegDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02C14F5229BEC560003CF20 /* WBFFmpegDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBFFmpegDemoUITests.m; sourceTree = "<group>"; };
+		D02C14F7229BEC560003CF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D02C14CB229BEC510003CF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02C14E3229BEC560003CF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02C14EE229BEC560003CF20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D02C14C5229BEC510003CF20 = {
+			isa = PBXGroup;
+			children = (
+				D02C14D0229BEC510003CF20 /* WBFFmpegDemo */,
+				D02C14E9229BEC560003CF20 /* WBFFmpegDemoTests */,
+				D02C14F4229BEC560003CF20 /* WBFFmpegDemoUITests */,
+				D02C14CF229BEC510003CF20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D02C14CF229BEC510003CF20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D02C14CE229BEC510003CF20 /* WBFFmpegDemo.app */,
+				D02C14E6229BEC560003CF20 /* WBFFmpegDemoTests.xctest */,
+				D02C14F1229BEC560003CF20 /* WBFFmpegDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D02C14D0229BEC510003CF20 /* WBFFmpegDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D02C14D1229BEC510003CF20 /* AppDelegate.h */,
+				D02C14D2229BEC510003CF20 /* AppDelegate.m */,
+				D02C14D4229BEC510003CF20 /* ViewController.h */,
+				D02C14D5229BEC510003CF20 /* ViewController.m */,
+				D02C14D7229BEC510003CF20 /* Main.storyboard */,
+				D02C14DA229BEC560003CF20 /* Assets.xcassets */,
+				D02C14DC229BEC560003CF20 /* LaunchScreen.storyboard */,
+				D02C14DF229BEC560003CF20 /* Info.plist */,
+				D02C14E0229BEC560003CF20 /* main.m */,
+			);
+			path = WBFFmpegDemo;
+			sourceTree = "<group>";
+		};
+		D02C14E9229BEC560003CF20 /* WBFFmpegDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D02C14EA229BEC560003CF20 /* WBFFmpegDemoTests.m */,
+				D02C14EC229BEC560003CF20 /* Info.plist */,
+			);
+			path = WBFFmpegDemoTests;
+			sourceTree = "<group>";
+		};
+		D02C14F4229BEC560003CF20 /* WBFFmpegDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D02C14F5229BEC560003CF20 /* WBFFmpegDemoUITests.m */,
+				D02C14F7229BEC560003CF20 /* Info.plist */,
+			);
+			path = WBFFmpegDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D02C14CD229BEC510003CF20 /* WBFFmpegDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02C14FA229BEC560003CF20 /* Build configuration list for PBXNativeTarget "WBFFmpegDemo" */;
+			buildPhases = (
+				D02C14CA229BEC510003CF20 /* Sources */,
+				D02C14CB229BEC510003CF20 /* Frameworks */,
+				D02C14CC229BEC510003CF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WBFFmpegDemo;
+			productName = WBFFmpegDemo;
+			productReference = D02C14CE229BEC510003CF20 /* WBFFmpegDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D02C14E5229BEC560003CF20 /* WBFFmpegDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02C14FD229BEC560003CF20 /* Build configuration list for PBXNativeTarget "WBFFmpegDemoTests" */;
+			buildPhases = (
+				D02C14E2229BEC560003CF20 /* Sources */,
+				D02C14E3229BEC560003CF20 /* Frameworks */,
+				D02C14E4229BEC560003CF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02C14E8229BEC560003CF20 /* PBXTargetDependency */,
+			);
+			name = WBFFmpegDemoTests;
+			productName = WBFFmpegDemoTests;
+			productReference = D02C14E6229BEC560003CF20 /* WBFFmpegDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D02C14F0229BEC560003CF20 /* WBFFmpegDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D02C1500229BEC560003CF20 /* Build configuration list for PBXNativeTarget "WBFFmpegDemoUITests" */;
+			buildPhases = (
+				D02C14ED229BEC560003CF20 /* Sources */,
+				D02C14EE229BEC560003CF20 /* Frameworks */,
+				D02C14EF229BEC560003CF20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D02C14F3229BEC560003CF20 /* PBXTargetDependency */,
+			);
+			name = WBFFmpegDemoUITests;
+			productName = WBFFmpegDemoUITests;
+			productReference = D02C14F1229BEC560003CF20 /* WBFFmpegDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D02C14C6229BEC510003CF20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wenbo;
+				TargetAttributes = {
+					D02C14CD229BEC510003CF20 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D02C14E5229BEC560003CF20 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D02C14CD229BEC510003CF20;
+					};
+					D02C14F0229BEC560003CF20 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D02C14CD229BEC510003CF20;
+					};
+				};
+			};
+			buildConfigurationList = D02C14C9229BEC510003CF20 /* Build configuration list for PBXProject "WBFFmpegDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D02C14C5229BEC510003CF20;
+			productRefGroup = D02C14CF229BEC510003CF20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D02C14CD229BEC510003CF20 /* WBFFmpegDemo */,
+				D02C14E5229BEC560003CF20 /* WBFFmpegDemoTests */,
+				D02C14F0229BEC560003CF20 /* WBFFmpegDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D02C14CC229BEC510003CF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02C14DE229BEC560003CF20 /* LaunchScreen.storyboard in Resources */,
+				D02C14DB229BEC560003CF20 /* Assets.xcassets in Resources */,
+				D02C14D9229BEC510003CF20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02C14E4229BEC560003CF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02C14EF229BEC560003CF20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D02C14CA229BEC510003CF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02C14D6229BEC510003CF20 /* ViewController.m in Sources */,
+				D02C14E1229BEC560003CF20 /* main.m in Sources */,
+				D02C14D3229BEC510003CF20 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02C14E2229BEC560003CF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02C14EB229BEC560003CF20 /* WBFFmpegDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D02C14ED229BEC560003CF20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D02C14F6229BEC560003CF20 /* WBFFmpegDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D02C14E8229BEC560003CF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02C14CD229BEC510003CF20 /* WBFFmpegDemo */;
+			targetProxy = D02C14E7229BEC560003CF20 /* PBXContainerItemProxy */;
+		};
+		D02C14F3229BEC560003CF20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D02C14CD229BEC510003CF20 /* WBFFmpegDemo */;
+			targetProxy = D02C14F2229BEC560003CF20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D02C14D7229BEC510003CF20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02C14D8229BEC510003CF20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D02C14DC229BEC560003CF20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D02C14DD229BEC560003CF20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D02C14F8229BEC560003CF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D02C14F9229BEC560003CF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D02C14FB229BEC560003CF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBFFmpegDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBFFmpegDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D02C14FC229BEC560003CF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBFFmpegDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBFFmpegDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D02C14FE229BEC560003CF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBFFmpegDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBFFmpegDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBFFmpegDemo.app/WBFFmpegDemo";
+			};
+			name = Debug;
+		};
+		D02C14FF229BEC560003CF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBFFmpegDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBFFmpegDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WBFFmpegDemo.app/WBFFmpegDemo";
+			};
+			name = Release;
+		};
+		D02C1501229BEC560003CF20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBFFmpegDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBFFmpegDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WBFFmpegDemo;
+			};
+			name = Debug;
+		};
+		D02C1502229BEC560003CF20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WBFFmpegDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.wb.WBFFmpegDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WBFFmpegDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D02C14C9229BEC510003CF20 /* Build configuration list for PBXProject "WBFFmpegDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02C14F8229BEC560003CF20 /* Debug */,
+				D02C14F9229BEC560003CF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02C14FA229BEC560003CF20 /* Build configuration list for PBXNativeTarget "WBFFmpegDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02C14FB229BEC560003CF20 /* Debug */,
+				D02C14FC229BEC560003CF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02C14FD229BEC560003CF20 /* Build configuration list for PBXNativeTarget "WBFFmpegDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02C14FE229BEC560003CF20 /* Debug */,
+				D02C14FF229BEC560003CF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D02C1500229BEC560003CF20 /* Build configuration list for PBXNativeTarget "WBFFmpegDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D02C1501229BEC560003CF20 /* Debug */,
+				D02C1502229BEC560003CF20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D02C14C6229BEC510003CF20 /* Project object */;
+}

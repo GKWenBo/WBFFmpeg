@@ -1,0 +1,14 @@
+prefix=/Users/mr_lucky/Desktop/GitHub/WBFFmpeg/Script/thin/i386
+exec_prefix=${prefix}
+libdir=/Users/mr_lucky/Desktop/GitHub/WBFFmpeg/Script/thin/i386/lib
+includedir=/Users/mr_lucky/Desktop/GitHub/WBFFmpeg/Script/thin/i386/include
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 58.35.100
+Requires: libswresample >= 3.3.100, libavutil >= 56.22.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavcodec -liconv -lm -lz -framework AudioToolbox -pthread -framework VideoToolbox -framework CoreFoundation -framework CoreMedia -framework CoreVideo
+Libs.private: 
+Cflags: -I${includedir}

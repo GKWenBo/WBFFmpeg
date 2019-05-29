@@ -1,0 +1,14 @@
+prefix=/Users/mr_lucky/Desktop/GitHub/WBFFmpeg/Script/thin/i386
+exec_prefix=${prefix}
+libdir=/Users/mr_lucky/Desktop/GitHub/WBFFmpeg/Script/thin/i386/lib
+includedir=/Users/mr_lucky/Desktop/GitHub/WBFFmpeg/Script/thin/i386/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 5.3.100
+Requires: libavutil >= 56.22.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswscale -lm
+Libs.private: 
+Cflags: -I${includedir}
